@@ -1,0 +1,26 @@
+{
+  "name": "NEXUS_FRONT_ZERO",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "NEXUS_SHARED": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "NEXUS_SERVER": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "NEXUS_CLIENT": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
